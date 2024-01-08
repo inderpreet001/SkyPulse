@@ -1,0 +1,29 @@
+.header{
+  background-color: black;
+  color: beige;
+}
+
+.logo{
+  color: beige;
+  font-size: 25px !important;
+}
+
+.main-button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #000000 !important;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+.main-button:hover {
+  background-color: #272020 !important;
+}
+.main-button:focus,
+.main-button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
